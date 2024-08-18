@@ -10,6 +10,14 @@ color-quinto:#97A2BF;
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.Qk-ULkBBoRtote1OjtxHBgHaHa&pid=Api&P=0&h=180);
+    background-size:contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
 
 .lista{ 
     list-style: none;
@@ -26,6 +34,7 @@ color-quinto:#97A2BF;
 
 .lista li{
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .link{
@@ -43,10 +52,13 @@ color-quinto:#97A2BF;
 
 .label{
     margin: 5px 0;
+    width: 45%;
+
 }
 
 .input{
     padding: 10px;
+    width: 40%;
 }
 
 .btn-enviar, .btn-borrar{

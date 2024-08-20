@@ -13,8 +13,11 @@ color-quinto:#97A2BF;
 body{
     background-image: url(../imagenes/fondo.jpg);  
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     
 }
+
 
 .lista{ 
     list-style: none;
@@ -80,4 +83,22 @@ body{
     display: block;
     padding: 5px;
     font-weight: bold;
+}
+
+@media (min-width: 992px){
+    .label{
+        
+        text-align: center;
+    
+    }
+    
+.footer{
+    text-align:justify;
+    background-color: #354164;
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+   
+}
+
 }

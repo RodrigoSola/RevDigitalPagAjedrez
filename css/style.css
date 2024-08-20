@@ -11,12 +11,9 @@ color-quinto:#97A2BF;
     padding: 0;
 }
 body{
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.Qk-ULkBBoRtote1OjtxHBgHaHa&pid=Api&P=0&h=180);
-    background-size:contain;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0; 
+    background-image: url(../imagenes/fondo.jpg);  
+    background-size: cover;
+    
 }
 
 .lista{ 
@@ -75,4 +72,12 @@ body{
 .btn-borrar{
     background-color: red;
 
+}
+
+.footer{
+    text-align: center;
+    background-color: #97A2BF;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
 }

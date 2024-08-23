@@ -18,10 +18,19 @@ color-quinto:#97A2BF;
 .body {
   background-image: url(../imagenes/fondo.jpg);
   background-size: cover;
-  display: flex;
+  display: grid;
   flex-direction: column;
+  min-height: 100dvh;
+  grid-template-rows:  auto 1fr auto;
 }
 
+.h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
 .lista {
   list-style: none;
   font-size: 20px;
@@ -33,7 +42,7 @@ color-quinto:#97A2BF;
   background-color: #009000;
 }
 
-.lista li {
+.lista .li {
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -42,6 +51,12 @@ color-quinto:#97A2BF;
   color: #97a2bf;
   text-decoration: none;
   font-weight: bold;
+  transition: 1s;
+}
+
+.lista .li .link:hover{
+    color: #5455eb;
+    background-color: aliceblue;
 }
 .form {
   display: flex;
@@ -66,8 +81,13 @@ color-quinto:#97A2BF;
   margin: 10px 0;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
+.btn-enviar:hover,
+.btn-borrar:hover{
+    border: #97a2bf;
+}
 .btn-enviar {
   background-color: #009000;
 }
@@ -102,7 +122,7 @@ color-quinto:#97A2BF;
 
   .botones {
     display: flex;
-    width: 50%;
+    width: 41.5%;
     justify-content: space-between;
     margin: 10px;
   }

@@ -22,8 +22,7 @@ color-quinto:#97A2BF;
   flex-direction: column;
   min-height: 100dvh;
   grid-template-rows:  auto 1fr auto;
-}
-
+} 
 .h1{
     color: black;
     font-size: 30px;

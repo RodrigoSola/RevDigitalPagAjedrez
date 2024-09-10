@@ -79,7 +79,7 @@ color-quinto:#97A2BF;
 
 .p-inicio {
   margin-top: 15px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   font-size: medium;
   font-weight: bold;
 }
@@ -88,6 +88,7 @@ color-quinto:#97A2BF;
 }
 .img-inicio {
   width: 90%;
+  margin-bottom: 35px;
 }
 /* jugadores */
 
@@ -218,7 +219,7 @@ color-quinto:#97A2BF;
   text-decoration: underline;
   text-align: center;
   display: flex;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
 }
 .img-movimientos {
@@ -256,6 +257,18 @@ padding: 13px;
 justify-content: center;
 width: 100%;
 margin-top: 25px;
+}
+
+#footer-index-cel{
+  text-align: justify;
+  background-color: #354164;
+  display: flex;
+  padding: 13px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  position: fixed;
+  bottom: 0;
 }
 /* media form */
 @media (min-width: 1024px) {

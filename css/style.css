@@ -103,10 +103,13 @@ color-quinto:#97A2BF;
   width: 90%;
   height: 180px;
 }
+h4{
+  margin-bottom: 10px;
+}
 .parrafo-jugador{
   font-weight: bold;
   font-size: 21px;
-  margin-top: 8px;
+  margin: auto;
 }
 .card-jugador {
   background-color: #97a2bf;

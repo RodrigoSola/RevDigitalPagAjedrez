@@ -3,46 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Ajedrez</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Inicio</title>
   </head>
-  <body class="body">
+  <body>
     <header>
       <nav>
         <ul class="lista">
-          <li class="li"><a href="#" class="link">Inicio</a></li>
-          <li class="li"><a href="#" class="link">Piezas y Movimientos</a></li>
-          <li class="li"><a href="#" class="link">Mejores Jugadores</a></li>
-          <li class="li"><a href="#" class="link">Historia y Reglas</a></li>
+          <li class="li"><a href="./index.html" class="link">Inicio</a></li>
+          <li class="li">
+            <a href="./piezas.html" class="link">Piezas y Movimientos</a>
+          </li>
+          <li class="li">
+            <a href="./jugadores.html" class="link">Mejores Jugadores</a>
+          </li>
+          <li class="li">
+            <a href="./historia.html" class="link">Historia y Reglas</a>
+          </li>
+          <li class="li"><a href="./form.html" class="link">Contacto</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <h1 class="h1">Formulario de contacto</h1>
-        <div class="main-content">
-      <form action="" mathod="post" class="form">
-        <label for="" class="label">Nombre: </label>
-        <input type="text" class="input" />
-        <label for="" class="label">Apellido: </label>
-        <input type="text" class="input" />
-        <label for="" class="label">Email: </label>
-        <input type="email" name="" id="" class="input" />
-        <label for="" class="label">Telefono: </label>
-        <input type="number" name="" id="" class="input" />
-        <label for="" class="label">Comentario: </label>
-        <textarea name="" id="" class="input"></textarea>
-        <div class="botones">
-
-        <input type="submit" value="enviar" class="btn-enviar" />
-        <input type="reset" value="borrar" class="btn-borrar" />
+    <main>
+      <div class="inicio">
+        <h1 id="h1">Trabajo hecho para el curso de Revlucion Digital</h1>
+        <p class="p-inicio">
+          Para los que hayan jugado este juego sabran lo apasionante que es,
+          para los que no, que pena.. na siempre es buen momento de conocerlo y
+          esta es una simple pagina para aprender lo basico.
+        </p>
+        <img src="./imagenes/Ajedrez.jpeg" alt="" class="img-inicio" />
       </div>
-      </form>
-    </div>
     </main>
-    <footer >
-        <div class="footer">
+    <footer>
+      <div class="footer" >
         COPYRIGHT © 2024 Ajedrez. Todos los derechos reservados. Rodrigo Sola.
-    </div>
+      </div>
     </footer>
+    <script src="./javascript/ajedrez.js"></script>
   </body>
 </html>

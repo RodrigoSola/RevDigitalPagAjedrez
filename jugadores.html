@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Jugadores</title>
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+        <ul class="lista">
+          <li class="li"><a href="./index.html" class="link">Inicio</a></li>
+          <li class="li">
+            <a href="./piezas.html" class="link">Piezas y Movimientos</a>
+          </li>
+          <li class="li"><a href="#" class="link">Mejores Jugadores</a></li>
+          <li class="li">
+            <a href="./historia.html" class="link">Historia y Reglas</a>
+          </li>
+          <li class="li"><a href="./form.html" class="link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <img
+      src="./imagenes/curve-arrow-upward-icon-on-transparent-background-free-png.webp"
+      alt=""
+      id="logo"
+    />
+      <h1 class="h1">Mejores Jugadores</h1>
+      <section class="jugadores">
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador1.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Magnus Carlsen</h4>
+          <p class="parrafo-jugador">Noruego</p>
+        </div>
+
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador2.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Bobby Fisher</h4>
+          <p class="parrafo-jugador">Estadounidense</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador3.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Garry Kasparov</h4>
+          <p class="parrafo-jugador">Ruso</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador4.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Jose Raul Capablanca</h4>
+          <p class="parrafo-jugador">Cubano</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador5.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Anatoly Karpov</h4>
+          <p class="parrafo-jugador">Ruso</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador6.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Mikhail Tal</h4>
+          <p class="parrafo-jugador">Leton</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador7.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Emanuel Lasker</h4>
+          <p class="parrafo-jugador">Aleman</p>
+        </div>
+        <div class="card-jugador">
+          <img
+            src="./imagenes/jugador8.jpeg"
+            alt="magnus"
+            class="img-jugador"
+          />
+          <h4>Mikhail Botvinnik</h4>
+          <p class="parrafo-jugador">Sovietico</p>
+        </div>
+        <div id="nuevo-jugador">
+
+        </div>
+      </section>
+      <section>
+        <h2 class="h2">Si conoces algun otro jugador agregalo aqui</h2>
+        
+        <div class="form-jugadores">
+          <form id="form">
+            <label for="foto" class="label-form-jug">Foto: </label>
+            <input
+              type="url"
+              name="foto"
+              id="foto"
+              alt="imagen"
+              placeholder="https://picsum.photos/150"
+            />
+            <br>
+            <label for="titulo" class="label-form-jug">Nombre: </label>
+            <input type="text" name="titulo" id="titulo" required />
+            <br>
+            <label for="nacionalidad" class="label-form-jug">Nacionalidad: </label>
+            <input type="text" name="nacionalidad" id="nacionalidad" required />
+            <br>
+            <label for="bgColor" class="label-form-jug">Color de fondo: </label>
+            <input type="color" name="bgColor" id="bgColor" value="#FFFFFF" />
+            <br>
+            <label for="textColor" class="label-form-jug">Color texto: </label>
+            <input
+              type="color"
+              name="textColor"
+              id="textColor"
+              value="#000000"
+            />
+            <br>
+            <button type="submit" id="submit">Agregar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer" id="footer-jug">
+        COPYRIGHT © 2024 Ajedrez. Todos los derechos reservados. Rodrigo Sola.
+      </div>
+    </footer>
+    <script src="./javascript/ajedrez.js"></script>
+  </body>
+</html>

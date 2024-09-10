@@ -139,7 +139,12 @@ h4{
     font-size: 20px;
     color: #a36c6c;
 }
-
+#nacionalidad:valid, #titulo:valid{
+  border-color: #009000;
+}
+#nacionalidad:invalid, #titulo:invalid{
+  border-color: red;
+}
 #submit{
   padding: 11px;
   box-shadow:2px 4px 6px rgba(94, 231, 59, 0.4);

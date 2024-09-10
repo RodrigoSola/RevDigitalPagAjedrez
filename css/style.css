@@ -18,7 +18,7 @@ color-quinto:#97A2BF;
 #logo {
   opacity: 0.8;
   position: fixed;
-  right: 0;
+  right: 20px;
   bottom: 66px;
   width: 10%;
   cursor: pointer;
@@ -199,7 +199,7 @@ color-quinto:#97A2BF;
 }
 .parrafo-portada,
 .ul {
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
   margin-top: 13px;
 }
